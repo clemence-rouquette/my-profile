@@ -1,0 +1,136 @@
+/* Colors and fonts */
+body {
+	background-color: #f9f1f6;
+	color:  #4d4c5f;
+	font-size: 15px;
+	line-height: 1.6;
+	letter-spacing: 1px;
+	font-weight: 200;
+	font-family: 'Poppins', sans-serif;
+
+}
+
+
+h1 {
+		
+	color:  #ffffff;
+	font-size: 40px;
+	line-height: 1.6;
+	letter-spacing: 1px;
+	font-weight: bolder;
+	font-family: 'Roboto condensed', sans-serif;
+}
+
+
+h2{
+	color: #ffffff;
+}
+
+
+a{
+	text-decoration: none;
+}
+
+a:hover {
+	color: rebeccapurple;
+}
+
+p{
+	text-justify: justify;
+}
+
+
+/* Custom design with class */
+
+.container{
+		width: 700px;
+		margin: 30px auto;
+	}
+
+@media(max-width: 760px) {
+	.container {
+		width: 400px;
+	}
+}
+	
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+
+
+
+#card-pink{	    margin: 20px;
+    padding: 10px;
+    background: #e246b0;
+    box-shadow: 0px 10px 30px rgb(173, 140, 181);
+      text-align: center;
+}
+
+.card-purple{
+	    margin: 20px;
+    padding: 10px;
+    background: #400436;
+    box-shadow: 0px 10px 5px rgb(173, 140, 181);	
+}
+
+.card-floralwhite{
+    margin: 60px;
+    padding: 20px;
+    background: #fbf2f2;
+    border: 1px solid #400436;
+    border-radius: 4px;
+    text-align: center;
+
+}
+
+.img-cirle { 
+	border-radius: 50%;
+	width: 200px;
+	margin: 30px auto;
+	border: 3px solid white;
+}
+
+
+
+.btn-purple {
+	background: mediumpurple;
+	color: whitesmoke;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+
+.btn-purple:hover {
+	background-color: rebeccapurple;
+	color: whitesmoke;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+#introduction p {
+	margin-bottom: 40px;
+
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+	text-align: center;
+}
+
+.list-inline li{
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 45px;
+	color: skyblue;
+	text-decoration: center;
+}
+
+
